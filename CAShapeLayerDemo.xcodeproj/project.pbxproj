@@ -13,6 +13,11 @@
 		DF6084781D3E1B82004BC7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6084761D3E1B82004BC7A5 /* Main.storyboard */; };
 		DF60847A1D3E1B82004BC7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6084791D3E1B82004BC7A5 /* Assets.xcassets */; };
 		DF60847D1D3E1B82004BC7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF60847B1D3E1B82004BC7A5 /* LaunchScreen.storyboard */; };
+		DF60848A1D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6084891D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.m */; };
+		DF60848D1D3E2158004BC7A5 /* ViewCover.m in Sources */ = {isa = PBXBuildFile; fileRef = DF60848C1D3E2158004BC7A5 /* ViewCover.m */; };
+		DF60848F1D3E22F5004BC7A5 /* 美女13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF60848E1D3E22F5004BC7A5 /* 美女13.jpg */; };
+		DF6084931D3E27DC004BC7A5 /* VolumeStateChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6084921D3E27DC004BC7A5 /* VolumeStateChangeVC.m */; };
+		DF6084971D3E6EDD004BC7A5 /* CricleProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6084961D3E6EDD004BC7A5 /* CricleProgressVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		DF6084791D3E1B82004BC7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF60847C1D3E1B82004BC7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF60847E1D3E1B82004BC7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6084881D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+ViewMask.h"; sourceTree = "<group>"; };
+		DF6084891D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+ViewMask.m"; sourceTree = "<group>"; };
+		DF60848B1D3E2158004BC7A5 /* ViewCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCover.h; sourceTree = "<group>"; };
+		DF60848C1D3E2158004BC7A5 /* ViewCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCover.m; sourceTree = "<group>"; };
+		DF60848E1D3E22F5004BC7A5 /* 美女13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女13.jpg"; sourceTree = "<group>"; };
+		DF6084911D3E27DC004BC7A5 /* VolumeStateChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolumeStateChangeVC.h; sourceTree = "<group>"; };
+		DF6084921D3E27DC004BC7A5 /* VolumeStateChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeStateChangeVC.m; sourceTree = "<group>"; };
+		DF6084951D3E6EDD004BC7A5 /* CricleProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricleProgressVC.h; sourceTree = "<group>"; };
+		DF6084961D3E6EDD004BC7A5 /* CricleProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricleProgressVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,9 @@
 		DF60846C1D3E1B82004BC7A5 /* CAShapeLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DF6084941D3E69E2004BC7A5 /* 圆形进度条 */,
+				DF6084871D3E1C51004BC7A5 /* ViewCorver */,
+				DF6084901D3E262D004BC7A5 /* 音量大小动态改变的控件 */,
 				DF6084701D3E1B82004BC7A5 /* AppDelegate.h */,
 				DF6084711D3E1B82004BC7A5 /* AppDelegate.m */,
 				DF6084731D3E1B82004BC7A5 /* ViewController.h */,
@@ -77,6 +94,36 @@
 				DF60846E1D3E1B82004BC7A5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6084871D3E1C51004BC7A5 /* ViewCorver */ = {
+			isa = PBXGroup;
+			children = (
+				DF60848E1D3E22F5004BC7A5 /* 美女13.jpg */,
+				DF6084881D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.h */,
+				DF6084891D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.m */,
+				DF60848B1D3E2158004BC7A5 /* ViewCover.h */,
+				DF60848C1D3E2158004BC7A5 /* ViewCover.m */,
+			);
+			name = ViewCorver;
+			sourceTree = "<group>";
+		};
+		DF6084901D3E262D004BC7A5 /* 音量大小动态改变的控件 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6084911D3E27DC004BC7A5 /* VolumeStateChangeVC.h */,
+				DF6084921D3E27DC004BC7A5 /* VolumeStateChangeVC.m */,
+			);
+			name = "音量大小动态改变的控件";
+			sourceTree = "<group>";
+		};
+		DF6084941D3E69E2004BC7A5 /* 圆形进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6084951D3E6EDD004BC7A5 /* CricleProgressVC.h */,
+				DF6084961D3E6EDD004BC7A5 /* CricleProgressVC.m */,
+			);
+			name = "圆形进度条";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF60848F1D3E22F5004BC7A5 /* 美女13.jpg in Resources */,
 				DF60847D1D3E1B82004BC7A5 /* LaunchScreen.storyboard in Resources */,
 				DF60847A1D3E1B82004BC7A5 /* Assets.xcassets in Resources */,
 				DF6084781D3E1B82004BC7A5 /* Main.storyboard in Resources */,
@@ -149,8 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF60848A1D3E1C7B004BC7A5 /* CAShapeLayer+ViewMask.m in Sources */,
+				DF60848D1D3E2158004BC7A5 /* ViewCover.m in Sources */,
 				DF6084751D3E1B82004BC7A5 /* ViewController.m in Sources */,
 				DF6084721D3E1B82004BC7A5 /* AppDelegate.m in Sources */,
+				DF6084931D3E27DC004BC7A5 /* VolumeStateChangeVC.m in Sources */,
+				DF6084971D3E6EDD004BC7A5 /* CricleProgressVC.m in Sources */,
 				DF60846F1D3E1B82004BC7A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
